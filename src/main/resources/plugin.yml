@@ -1,0 +1,11 @@
+name: KapBlock
+version: '${project.version}'
+main: fr.kapsulon.kapblock.KapBlock
+api-version: 1.18
+authors: [ Kapsulon ]
+description: Kapsulon's SkyBlock Plugin for PaperMC 1.18.2
+commands:
+  info:
+    description: Get plugin information
+    usage: /info
+    permission: kapblock.info
